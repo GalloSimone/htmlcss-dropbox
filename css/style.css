@@ -113,3 +113,64 @@ body {
     left: 20rem;
     top: 15rem;
   }
+  /* SUBSCRIPTION */
+
+.subscription-section {
+  min-height: 1000px;
+  width: 100%;
+}
+
+.subscription-section > .container {
+  padding: 150px 80px 20px;
+}
+
+.subscription-title {
+  font-size: 2.5rem;
+  margin: 20px 0;
+}
+
+input[name="payment-option"] {
+  margin: 50px 0;
+}
+
+.plan-card-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.plan-card {
+  border: 1px solid #acacac;
+  width: 30%;
+}
+
+.plan-type {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  padding: 10px 0;
+  border-bottom: 1px solid #acacac;
+}
+.plan-description {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 30px 30px 50px;
+  border-bottom: 1px solid #acacac;
+}
+.plan-title{
+font-size: 1.5rem;
+}
+.plan-description .plan-list {
+  padding: 25px 0;
+}
+.plan-list-item {
+  margin: 1.5rem 0;
+}
+.plan-description > button {
+  margin: 0 0 30px;
+}
+.plan-bonus {
+  padding: 70px 20px;
+}
+
