@@ -115,28 +115,24 @@ body {
   }
   /* SUBSCRIPTION */
 
+
 .subscription-section {
-  min-height: 1000px;
   width: 100%;
+  margin: 100px 0 0;
+  padding: 100px 0;
 }
-
-.subscription-section > .container {
-  padding: 150px 80px 20px;
-}
-
-.subscription-title {
-  font-size: 2.5rem;
-  margin: 20px 0;
-}
-
 input[name="payment-option"] {
   margin: 50px 0;
 }
-
+label{
+  margin-right: 50px;
+}
 .plan-card-container {
   display: flex;
-  justify-content: center;
-  gap: 50px;
+  justify-content: space-between;
+  gap: 49px;
+  flex-wrap: wrap;
+  margin: 50px 0 0;
 }
 
 .plan-card {
@@ -158,9 +154,7 @@ input[name="payment-option"] {
   padding: 30px 30px 50px;
   border-bottom: 1px solid #acacac;
 }
-.plan-title{
-font-size: 1.5rem;
-}
+
 .plan-description .plan-list {
   padding: 25px 0;
 }
@@ -171,6 +165,10 @@ font-size: 1.5rem;
   margin: 0 0 30px;
 }
 .plan-bonus {
-  padding: 70px 20px;
+  padding: 50px 30px;
+}
+.big-plan-card{
+  border: 1px solid #acacac;
+  width: 100%;
 }
 
